@@ -1,0 +1,24 @@
+sudo apt update //업데이트를 먼저 해쥼
+
+sudo apt install git //깃 사용을 위해 설치
+
+sudo apt install docker.io //도커 설치
+
+sudo apt install curl
+
+sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose //docker-compose 1.18버전설치
+
+sudo chmod +x /usr/local/bin/docker-compose //실행파일로 등록
+
+git clone https://github.com/epicarts/2019_hanium_project //git 에서 프로젝트 다운로드
+
+cd 2019_hanium_project //프로젝트 폴더 이동
+
+sudo docker-compose build //docker-compose를 사용하여 빌드(오래걸림)
+
+sudo docker-compose up //docker-compose를 사용하여 시작
+
+*
+sudo docker-compose run django python manage.py makemigrations accounts // 장고식 명령어 추가해줌!!
+
+
