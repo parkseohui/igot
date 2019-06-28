@@ -1,0 +1,11 @@
+http://investor-js.blogspot.com/2017/12/visual-studio-code-aws-ec2.html
+이걸 참조함
+vscode의 sftp 관련 json코드를 수정해도 리모트가 실패함
+sudo edit /etc/ssh/sshd_config를 실행한후 pubkeyA와 passwordA를 yes no로 수정해봤지만 나아지지않음.
+
+vi에디터 참고
+esc누른뒤 :wq를 해야 저장후 나갈수있음
+:q! 저장하지않고 나감
+
+a 는 맨뒷줄에 문자추가하는 명령어
+
