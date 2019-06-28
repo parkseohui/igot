@@ -1,6 +1,10 @@
 인바운드에서 개발할때 포트 ssh 모드로 22번 열어놓고쓰기
 전체에서 보려고할때 80번 포트로 열어놓기
 
+sudo docker-compose run django python manage.py makemigrations accounts
+도커명령어
+
+
 http://52.79.234.12/
 
  ssh -i "C:\Users\seohui\Downloads\yhlemon.pem" ubuntu@52.79.234.12
